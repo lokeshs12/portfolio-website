@@ -1,0 +1,135 @@
+body {
+    background-color: rgb(6, 28, 69);
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    
+    margin: 0px;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.right {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.left {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.first {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.leftfirst {
+    img{
+        width: 400px;
+        height: 400px;
+    
+        }}
+.rightfirst {
+    max-width: 800px;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+.textfirst {
+    font-size: 30px;
+    font-weight: 600;
+    color: aqua;
+}
+
+button{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(6, 28, 69);
+    background-color: aqua;
+    border-radius: 10px;
+    border: 0cap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 25px;
+  font-size: 24px;
+
+
+
+}
+
+
+.about, .projects{
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    font-size: large;
+    gap: 10px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+.projects {
+    margin: 100px 0px;
+    background-color: rgb(29, 31, 6);
+}
+a:link {
+    text-decoration: none;
+
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+  a:link, a:visited {
+    
+    color: white;
+    
+
+    text-decoration: none;
+
+  }
+  
+  a:hover, a:active {
+    color: aqua;
+
+  }
+  
+  .button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
