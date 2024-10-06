@@ -40,6 +40,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     gap: 50px;
+    font-size: 20px;
 }
 .leftfirst {
     img{
@@ -87,6 +88,8 @@ button{
     max-width: 1000px;
     font-size: large;
     gap: 10px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 
@@ -94,10 +97,7 @@ html{
     scroll-behavior: smooth;
 }
 
-.projects {
-    margin: 100px 0px;
-    background-color: rgb(29, 31, 6);
-}
+
 a:link {
     text-decoration: none;
 
@@ -129,7 +129,103 @@ a:hover {
   .button:hover {background-color: #3e8e41}
 
 .button:active {
-  background-color: #3e8e41;
+  background-color: #fc0830;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+.projects {
+    padding:  100px;
+
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .images {
+    display: flex;
+    max-height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 300px 100px;
+  }
+
+
+  .contact{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 16px;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  
+  .fa-instagram{
+    background: #3B5998;
+    color: white;
+  }
